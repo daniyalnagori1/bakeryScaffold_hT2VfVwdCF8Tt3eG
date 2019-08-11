@@ -10,7 +10,7 @@ install:
 
 
 script: 
- python test.py -s -q
+ python test.py
 
 after_success:
  - coveralls
